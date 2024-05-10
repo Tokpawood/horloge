@@ -1,0 +1,75 @@
+/* General rules */
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "ubuntu-regular";
+}
+/* Styling the header*/
+header{
+    width: 100%;
+}
+nav, ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+ul, li, #navlist {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-weight: 900;
+    font-size: 20px;
+    transition: all 1s;
+}
+#navlist:hover{
+    border-bottom: 2px solid white;
+    transition: all 1s;
+}
+/* Designing the body*/
+body{
+    background-image: url('/images/bg');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 2em;
+    font-weight: 900;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.container, div{
+    margin-left: 15px;
+    font-size: 40px;
+    font-family: "ubuntu-bold";
+    font-weight: 900;
+}
+.clock{
+    display: flex;
+    border-radius: 8px;
+
+}
+.clock > span{
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.11);
+    font-family: "ubuntu-bold";
+
+}
+@media screen and (min-width: 2200px) {
+    h1{
+        font-size: 150px;
+        margin-top: 14%;
+    }
+    .clock >span{
+        font-size: 80px;    
+
+    }
+}

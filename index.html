@@ -1,14 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'heure est là</title>
     <!--Css-->
     <link rel="stylesheet" href="style.css">
+    <!--Link ubuntu font-->
+    <link rel="stylesheet" href="./font/font.css">
 </head>
 <body>
-    
+    <!--The header-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="navlist">Local Time</a></li>
+                <li><a href="#" id="navlist">Pick the country</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--The main text-->
+    <main>
+        <h1>The worldwild hour</h1>
+        <div class="container">
+            <div class="clock">
+                <span id="heure" >00</span>
+                <span>:</span>
+                <span id="minute">00</span>
+                <span>:</span>
+                <span id="seconde">00</span>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+    <!--Link Js-->
     <script src="main.js"></script>
 </body>
 </html>
